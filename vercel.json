@@ -2,7 +2,7 @@
 
    "builds":[
             {
-             "src":"/hello.py",
+             "src":"hello.py",
              "use":"@vercel/python"
 }
 
@@ -13,7 +13,7 @@
 {
 
           "src":"/(.*)",
-          "dest":"/hello.py"
+          "dest":"hello.py"
 }
 ]
 
